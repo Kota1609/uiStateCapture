@@ -1,28 +1,3 @@
-Here's a comprehensive README for your GitHub repo:
-
-```markdown
-# Softlight - AI-Powered UI State Capture System
-
-**An intelligent multi-agent system that automatically captures UI states (including non-URL states like modals, forms, and dropdowns) for training AI agents.**
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
-[![Playwright](https://img.shields.io/badge/Playwright-1.40-green)](https://playwright.dev/)
-[![Groq Vision](https://img.shields.io/badge/Groq-Llama%204%20Scout-orange)](https://groq.com/)
-
----
-
-## 🎯 Problem Statement
-
-AI agents need training data that captures **complete UI workflows** - not just pages with URLs, but also:
-- Modal dialogs (no URL)
-- Form states (no URL)
-- Dropdown menus (no URL)
-- Toast notifications (no URL)
-- Loading states (no URL)
-
-**Softlight** solves this by autonomously navigating web apps and intelligently detecting when to capture UI states.
-
----
 
 ## 🚀 Quick Start
 
