@@ -1,0 +1,35 @@
+{
+  "state_id": "001",
+  "task_id": "create_entry",
+  "app": "notion",
+  "step_index": 1,
+  "timestamp": "2025-10-31T04:10:45.075Z",
+  "url": "https://www.notion.so/29c7e178c3f780ac9b2bc279c0b629e3?v=29c7e178c3f7804faff7000c60a4e9c0&p=29d7e178c3f78017b651c13fbf79c210&pm=s",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "action_based",
+    "confidence": 0.9
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.9,
+    "caption": "The screenshot shows a UI for a stock market tracker with a list of stocks and a form to add a new item.",
+    "reasoning": "The screenshot displays a list of stocks with their names and ticker symbols, along with a form to add a new item. The form includes fields for ticker symbol, current price, purchase price, and purchase date, which are all currently empty. This suggests that the user is in the process of adding a new stock to the tracker, which is an important UI state for a workflow.",
+    "verified_at": "2025-10-31T04:10:45.075Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 117,
+    "focused_element": "textbox"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "001.png",
+    "metadata": "001.json"
+  },
+  "redaction_applied": false
+}

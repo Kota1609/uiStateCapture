@@ -1,0 +1,40 @@
+{
+  "state_id": "009",
+  "task_id": "change_issue_status",
+  "app": "linear",
+  "step_index": 9,
+  "timestamp": "2025-10-31T04:09:07.053Z",
+  "url": "https://linear.app/test-softlight/issue/TES-19/test-issue-automated-capture",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "A dropdown menu is visible.",
+    "reasoning": "There is a dropdown menu visible on the right side of the screen, which appears to be a context menu for changing the status of an issue. The menu includes options such as 'Backlog', 'Todo', 'In Progress', 'Done', 'Canceled', and 'Duplicate'.",
+    "verified_at": "2025-10-31T04:09:07.053Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 59,
+    "focused_element": "Change status…"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "_r_df_"
+    ],
+    "submit_enabled": false
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "009.png",
+    "metadata": "009.json"
+  },
+  "redaction_applied": false
+}

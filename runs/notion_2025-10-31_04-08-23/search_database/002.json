@@ -1,0 +1,35 @@
+{
+  "state_id": "002",
+  "task_id": "search_database",
+  "app": "notion",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:11:09.138Z",
+  "url": "https://www.notion.so/29c7e178c3f780ac9b2bc279c0b629e3?v=29c7e178c3f7804faff7000c60a4e9c0",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "action_based",
+    "confidence": 0.9
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.9,
+    "caption": "The screenshot shows a Stock Market Tracker interface with a table displaying stock information, including Apple Inc. (AAPL) with a current price of $187.65 and a purchase price of $175.42.",
+    "reasoning": "The screenshot displays a user interface for tracking stock market data. It includes a table with columns for stock name, ticker symbol, current price, and purchase price. The presence of specific data for Apple Inc. (AAPL) and the option to add a new item suggest that this is a functional UI for managing stock information. The interface also includes navigation elements and a search bar, indicating it is part of a larger workflow for tracking and managing stock portfolios.",
+    "verified_at": "2025-10-31T04:11:09.138Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 51,
+    "focused_element": "input"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}

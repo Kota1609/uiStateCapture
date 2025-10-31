@@ -1,0 +1,30 @@
+{
+  "name": "softlight",
+  "version": "1.0.0",
+  "description": "UI State Capture System for AI Multi-Agent Workflows",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=backend",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=backend",
+    "setup-auth": "tsx scripts/setup-auth.ts",
+    "capture-all": "tsx scripts/run-all-tasks.ts",
+    "capture-linear": "tsx scripts/run-linear-only.ts",
+    "capture-notion": "tsx scripts/run-notion-only.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
+

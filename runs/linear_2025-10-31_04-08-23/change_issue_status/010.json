@@ -1,0 +1,35 @@
+{
+  "state_id": "010",
+  "task_id": "change_issue_status",
+  "app": "linear",
+  "step_index": 10,
+  "timestamp": "2025-10-31T04:09:09.836Z",
+  "url": "https://linear.app/test-softlight/issue/TES-19/test-issue-automated-capture",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "quiet_window",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "The page appears to be fully loaded with content visible and no notifications or alerts.",
+    "reasoning": "The screenshot shows a fully loaded page with a clear issue description section, activity log, and no visible notifications, toasts, alerts, or messages.",
+    "verified_at": "2025-10-31T04:09:09.836Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 56,
+    "focused_element": "button"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "010.png",
+    "metadata": "010.json"
+  },
+  "redaction_applied": false
+}

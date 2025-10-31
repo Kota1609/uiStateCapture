@@ -1,0 +1,40 @@
+{
+  "state_id": "012",
+  "task_id": "change_issue_status",
+  "app": "linear",
+  "step_index": 12,
+  "timestamp": "2025-10-31T04:09:13.584Z",
+  "url": "https://linear.app/test-softlight/issue/TES-19/test-issue-automated-capture",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "A dropdown menu for changing priority is visible.",
+    "reasoning": "There is a dropdown menu titled 'Change priority to...' that lists various priority levels, indicating that it is a popup or dropdown element used for selecting priority levels.",
+    "verified_at": "2025-10-31T04:09:13.584Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 57,
+    "focused_element": "Change priority to…"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "_r_du_"
+    ],
+    "submit_enabled": false
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "012.png",
+    "metadata": "012.json"
+  },
+  "redaction_applied": false
+}

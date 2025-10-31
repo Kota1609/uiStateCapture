@@ -1,0 +1,35 @@
+{
+  "state_id": "002",
+  "task_id": "change_issue_status",
+  "app": "linear",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:08:51.160Z",
+  "url": "https://linear.app/test-softlight/team/TES/active",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "quiet_window",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "The page appears to be fully loaded with a list of issues and no notifications or alerts visible.",
+    "reasoning": "The page shows a list of issues with various details such as status, issue ID, description, and date. There are no visible notifications, toasts, alerts, or messages on the screen. The content looks stable and fully loaded.",
+    "verified_at": "2025-10-31T04:08:51.160Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 62,
+    "focused_element": "a"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}

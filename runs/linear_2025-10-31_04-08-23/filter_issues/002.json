@@ -1,0 +1,40 @@
+{
+  "state_id": "002",
+  "task_id": "filter_issues",
+  "app": "linear",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:09:30.723Z",
+  "url": "https://linear.app/test-softlight/team/TES/active",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "A dropdown menu is visible.",
+    "reasoning": "The image shows a dropdown menu that appears when hovering over 'Priority', which lists various priority levels such as 'No priority', 'Urgent', 'High', 'Medium', and 'Low'. This dropdown menu is an overlay that appears on top of the main content.",
+    "verified_at": "2025-10-31T04:09:30.723Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 69,
+    "focused_element": "Filter…"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "_r_c6_"
+    ],
+    "submit_enabled": false
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}

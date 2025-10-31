@@ -1,0 +1,35 @@
+{
+  "state_id": "000",
+  "task_id": "view_team_settings",
+  "app": "linear",
+  "step_index": 0,
+  "timestamp": "2025-10-31T04:09:55.761Z",
+  "url": "https://linear.app/test-softlight/settings/account/preferences",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "quiet_window",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "The page appears to be fully loaded with no notifications or alerts visible, displaying a list of preferences.",
+    "reasoning": "The page shows a fully loaded list of preferences with various settings and no visible notifications, toasts, alerts, or messages.",
+    "verified_at": "2025-10-31T04:09:55.761Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 50,
+    "focused_element": "div"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "000.png",
+    "metadata": "000.json"
+  },
+  "redaction_applied": false
+}

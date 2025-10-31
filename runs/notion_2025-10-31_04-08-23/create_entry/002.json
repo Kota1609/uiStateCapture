@@ -1,0 +1,35 @@
+{
+  "state_id": "002",
+  "task_id": "create_entry",
+  "app": "notion",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:10:49.104Z",
+  "url": "https://www.notion.so/29c7e178c3f780ac9b2bc279c0b629e3?v=29c7e178c3f7804faff7000c60a4e9c0&p=29d7e178c3f78017b651c13fbf79c210&pm=s",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "action_based",
+    "confidence": 0.8
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.8,
+    "caption": "The screenshot shows a stock market tracker interface with a list of stocks and details for a selected stock.",
+    "reasoning": "The screenshot displays a user interface for a stock market tracker, showing a list of stocks on the left and detailed information about a selected stock on the right. The list includes stock names and ticker symbols, and the detailed view shows empty fields for ticker symbol, current price, purchase price, and purchase date. The presence of interactive elements like a search bar, sorting options, and a button to add a new stock suggests that this is a functional UI for managing stock data. The UI state appears to be important as it allows users to track and manage stock information.",
+    "verified_at": "2025-10-31T04:10:49.104Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 117,
+    "focused_element": "textbox"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}

@@ -1,0 +1,40 @@
+{
+  "state_id": "001",
+  "task_id": "filter_issues",
+  "app": "linear",
+  "step_index": 1,
+  "timestamp": "2025-10-31T04:09:28.396Z",
+  "url": "https://linear.app/test-softlight/team/TES/active",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": false,
+    "vlm_confidence": 1,
+    "caption": "There are no modal dialogs, popups, dropdown menus, or overlays visible except for a filter dropdown menu which is not considered as a modal dialog, popup, or overlay.",
+    "reasoning": "The image shows a typical interface of a project management tool with various menu options and filters. The filter dropdown menu is expanded, but it does not qualify as a modal dialog, popup, or overlay. There are no visible modal dialogs, popups, or overlays obstructing the main view.",
+    "verified_at": "2025-10-31T04:09:28.396Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 63,
+    "focused_element": "Filter…"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "_r_c6_"
+    ],
+    "submit_enabled": false
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "001.png",
+    "metadata": "001.json"
+  },
+  "redaction_applied": false
+}

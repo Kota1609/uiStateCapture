@@ -1,0 +1,35 @@
+{
+  "state_id": "001",
+  "task_id": "search_database",
+  "app": "notion",
+  "step_index": 1,
+  "timestamp": "2025-10-31T04:11:05.696Z",
+  "url": "https://www.notion.so/29c7e178c3f780ac9b2bc279c0b629e3?v=29c7e178c3f7804faff7000c60a4e9c0",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "action_based",
+    "confidence": 0.9
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.9,
+    "caption": "The screenshot shows a stock market tracker interface with a list of stocks, their current prices, and purchase information.",
+    "reasoning": "The screenshot displays a table with stock names, ticker symbols, current prices, purchase prices, and purchase dates. This interface appears to be a key part of a workflow for tracking stock market investments, allowing users to monitor and manage their stock portfolio. The presence of interactive elements like a search bar, filtering options, and a 'New' button suggests that this is a functional UI for managing stock data.",
+    "verified_at": "2025-10-31T04:11:05.696Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 100,
+    "focused_element": "input"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "001.png",
+    "metadata": "001.json"
+  },
+  "redaction_applied": false
+}

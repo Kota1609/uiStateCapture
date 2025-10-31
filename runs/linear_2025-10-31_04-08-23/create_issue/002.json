@@ -1,0 +1,43 @@
+{
+  "state_id": "002",
+  "task_id": "create_issue",
+  "app": "linear",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:08:35.156Z",
+  "url": "https://linear.app/test-softlight/team/TES/active",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 0.99
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.99,
+    "caption": "A modal dialog for creating a new issue is visible.",
+    "reasoning": "The image shows a white modal dialog box centered on the screen with a title 'TES > New issue' and a form to create a new issue. The presence of this overlay on top of the main content indicates that it is a modal dialog.",
+    "verified_at": "2025-10-31T04:08:35.156Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 76,
+    "focused_element": "textbox"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "Issue title",
+      "Issue description",
+      null,
+      null
+    ],
+    "submit_enabled": true
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}

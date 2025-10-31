@@ -1,0 +1,43 @@
+{
+  "state_id": "001",
+  "task_id": "create_issue",
+  "app": "linear",
+  "step_index": 1,
+  "timestamp": "2025-10-31T04:08:32.823Z",
+  "url": "https://linear.app/test-softlight/team/TES/active",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "modal_visible",
+    "confidence": 1
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 1,
+    "caption": "A modal dialog for creating a new issue is visible.",
+    "reasoning": "The image shows a white modal dialog box with fields for 'Issue title' and 'Add description...'. The dialog includes options for 'Todo', 'Priority', 'Assignee', and 'Project', and buttons for 'Create more' and 'Create issue'. This overlay is obstructing the view of the underlying page, confirming that it is a modal dialog.",
+    "verified_at": "2025-10-31T04:08:32.823Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 73,
+    "focused_element": "textbox"
+  },
+  "dom_snapshot": {
+    "visible_fields": [
+      "Issue title",
+      "Issue description",
+      null,
+      null
+    ],
+    "submit_enabled": true
+  },
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "001.png",
+    "metadata": "001.json"
+  },
+  "redaction_applied": false
+}

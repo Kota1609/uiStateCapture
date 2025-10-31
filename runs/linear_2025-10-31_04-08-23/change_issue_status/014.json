@@ -1,0 +1,35 @@
+{
+  "state_id": "014",
+  "task_id": "change_issue_status",
+  "app": "linear",
+  "step_index": 14,
+  "timestamp": "2025-10-31T04:09:17.908Z",
+  "url": "https://linear.app/test-softlight/issue/TES-19/test-issue-automated-capture",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "quiet_window",
+    "confidence": 0.9
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.9,
+    "caption": "The page appears to be fully loaded with content visible, showing an issue titled 'Test Issue - Automated Capture'.",
+    "reasoning": "The page shows a fully loaded issue with a title, description field, and activity section. There are no visible notifications, toasts, alerts, or messages on the screen. The layout is consistent and all elements seem to be properly rendered.",
+    "verified_at": "2025-10-31T04:09:17.908Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 56,
+    "focused_element": "button"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "014.png",
+    "metadata": "014.json"
+  },
+  "redaction_applied": false
+}

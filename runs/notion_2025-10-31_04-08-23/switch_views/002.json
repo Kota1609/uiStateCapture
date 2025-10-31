@@ -1,0 +1,35 @@
+{
+  "state_id": "002",
+  "task_id": "switch_views",
+  "app": "notion",
+  "step_index": 2,
+  "timestamp": "2025-10-31T04:10:27.170Z",
+  "url": "https://www.notion.so/29c7e178c3f780ac9b2bc279c0b629e3?v=29c7e178c3f780f9a3a7000c502dbcf8",
+  "capture_reason": {
+    "trigger": "detector",
+    "detector_type": "action_based",
+    "confidence": 0.9
+  },
+  "verification": {
+    "vlm_verified": true,
+    "vlm_confidence": 0.9,
+    "caption": "The screenshot shows a Stock Market Tracker interface with sector categorization and stock listings.",
+    "reasoning": "The screenshot displays a user interface for a Stock Market Tracker, showing various sectors and stock listings, including 'No Sector' with Amazon.com Inc listed twice, and options to add new items. The presence of sector categories and stock listings suggests that this is an important UI state for managing a portfolio or tracking stock performance.",
+    "verified_at": "2025-10-31T04:10:27.170Z"
+  },
+  "accessibility": {
+    "landmarks": [],
+    "interactive_elements": 94,
+    "focused_element": "tab"
+  },
+  "dom_snapshot": {},
+  "network_context": {
+    "idle_duration_ms": 0,
+    "pending_requests": 0
+  },
+  "files": {
+    "screenshot": "002.png",
+    "metadata": "002.json"
+  },
+  "redaction_applied": false
+}
